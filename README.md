@@ -20,11 +20,11 @@ PassOP is a simple password manager built using React. It allows you to securely
 
 ## Installation
 
-To run this project locally, follow the steps below:
+To run this project locally :
 
-### 1. Clone the Repository
+### Clone the Repository
 
-First, clone the repository to your local machine using Git:
+Clone the repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/Adityakumar626/PasswordOP.git
