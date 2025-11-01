@@ -1,16 +1,30 @@
-# React + Vite
+# PassOP - Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassOP is a simple password manager built using React. It allows you to securely store, view, edit, and delete your passwords for different websites, all within your browser. It uses the browser's `localStorage` to persist your passwords locally.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add new passwords**: Add your website, username, and password.
+- **Edit passwords**: Modify existing passwords.
+- **Delete passwords**: Remove individual passwords or delete all passwords at once.
+- **Password visibility toggle**: Easily show or hide passwords using an eye icon.
+- **Copy to clipboard**: Copy website URLs, usernames, or passwords to your clipboard.
+- **Toast notifications**: Get visual feedback on actions like saving, deleting, or copying.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: The front-end framework used to build the UI.
+- **React-Toastify**: For notifications (e.g., success or error messages).
+- **UUID**: To generate unique IDs for each password entry.
+- **LocalStorage**: Used for persisting passwords in the browser.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow the steps below:
+
+### 1. Clone the Repository
+
+First, clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/your-username/passop.git
