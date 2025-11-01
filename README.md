@@ -27,4 +27,4 @@ To run this project locally, follow the steps below:
 First, clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/passop.git
+git clone https://github.com/Adityakumar626/PasswordOP.git
