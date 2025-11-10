@@ -32,7 +32,7 @@
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/Adityakumar626/PasswordOP.git
-cd PasswordO
+cd PasswordOP
 ```
 2. **Install dependencies and start the development server:**
 ```bash
