@@ -20,7 +20,10 @@ const Navbar = () => {
           <span className="text-green-600">OP/&gt;</span>
         </div>
 
-        <button className="text-white bg-slate-700 my-5 px-2 rounded-full flex gap-0 justify-center items-center ">
+        <button
+          className="text-white bg-slate-700 my-5 px-2 rounded-full flex gap-0 justify-center items-center hover:cursor-pointer "
+          onClick={() => window.open("https://github.com/Adityakumar626/PasswordOP","_blank")}
+        >
           <span className="relative top-0.5">
             <lord-icon
               src="https://cdn.lordicon.com/jjxzcivr.json"
